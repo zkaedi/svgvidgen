@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #39ff14;
+  text-shadow: 0 0 8px #39ff14, 0 0 20px #00ff00, 0 0 30px #00ff00;
+}
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  padding: 2rem;
+  background: #1a1a1a;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #39ff14, 0 0 30px #00ff00;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.error {
+  color: #ff4d4d;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.progress-bar div {
+  height: 20px;
+  background: #39ff14;
+  width: 0%;
+  box-shadow: 0 0 5px #39ff14;
+  transition: width 0.4s ease-in-out;
+}
+
+.status {
+  font-size: 1rem;
+  color: #00ff00;
+  text-align: center;
+}
