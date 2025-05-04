@@ -1,0 +1,12 @@
+{
+  "title": "AI SVG Video Prompt Set",
+  "frame_rate": 1,
+  "width": 400,
+  "height": 200,
+  "output_video": "ai_svg_video.mp4",
+  "prompts": [
+    "A digital sunrise lights up the horizon",
+    "Mechanical gears unfold beneath the sky",
+    "A path of data appears in glowing particles"
+  ]
+}
