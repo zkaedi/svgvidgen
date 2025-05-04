@@ -1,48 +1,53 @@
 [
   {
     "name": "SceneInspireAgent",
-    "description": "Injects symbolic, metaphor-rich, and visually resonant enhancements into prompts for animated frame generation.",
-    "version": "1.0.0",
+    "description": "Symbolically expands prompts with recursive metaphor, emotional resonance, and cinematic rhythm, drawing from memory and preset style context.",
+    "version": "2.0.0",
     "type": "prompt_enhancer",
-    "domain": "Creative Media + Narrative Generation",
+    "domain": "Creative Augmentation + Cinematic Prompt Engineering",
     "inputs": [
       "raw_prompt",
-      "frame_index"
+      "frame_index",
+      "style_profile",
+      "shared_context"
     ],
     "outputs": [
       "inspired_prompt"
     ],
     "logic": {
-      "transformations": [
-        "Add symbolic metaphor relevant to theme",
-        "Echo prompt tone rhythmically",
-        "Embed subconscious archetypes",
-        "Apply recursive deepening pass"
-      ],
-      "style_mode": "unconstrained surreal",
-      "layers": 3,
-      "temporal_adjustment": "tied to frame index"
+      "recursive_layers": 3,
+      "use_style_profile": true,
+      "feedback_mutation_enabled": true,
+      "echo_past_frame_emotion": true,
+      "signature_stamp_enabled": true
     },
     "intelligent_methods": [
-      "Tone resonator injection",
-      "Metaphor mutator amplification",
-      "Scene-seeded rhythm patterning"
+      "Emotion-linked metaphor seeding",
+      "Surreal harmonic echo injection",
+      "Recursive prompt enrichment with tone resonance",
+      "Anti-flatness mutation cascade"
+    ],
+    "bonuses": [
+      "Signature embedding in output XML comments",
+      "Real-time style rebalancing from frame memory"
     ],
     "meta": {
       "created_by": "zkaedi",
-      "role": "Super-agent for prompt enhancement in video pipelines",
+      "agent_tier": "Prime Elite",
       "date_forged": "2025-05-04"
     }
   },
   {
     "name": "ColorAuraAgent",
-    "description": "Analyzes the semantic tone of prompts and assigns emotionally resonant color schemes with motion bias.",
-    "version": "1.0.0",
-    "type": "visual_context_enricher",
-    "domain": "Color Psychology + Scene Enhancement",
+    "description": "Derives emotional tone from prompt and applies evolving color theory with symbolic mapping, harmony correction, and per-frame evolution.",
+    "version": "2.0.0",
+    "type": "color_enricher",
+    "domain": "Emotional Color Psychology + Visual Harmony",
     "inputs": [
-      "prompt",
-      "frame_index"
+      "enhanced_prompt",
+      "frame_index",
+      "style_profile",
+      "shared_context"
     ],
     "outputs": [
       "background_color",
@@ -50,37 +55,38 @@
       "mood_profile"
     ],
     "logic": {
-      "semantic_analysis": "extract emotional tone from prompt",
-      "color_mapping": {
-        "joy": "#fdd835",
-        "mystery": "#3f51b5",
-        "tension": "#d32f2f",
-        "hope": "#4caf50",
-        "nostalgia": "#6a1b9a"
-      },
-      "harmony_model": "triadic or complementary blending",
-      "frame_variation": "slight hue shift per frame for life-like feel"
+      "style_profile_influence": true,
+      "emotion_to_color_map": "dynamic",
+      "hue_shift_per_frame": true,
+      "harmony_validation_enabled": true
     },
     "intelligent_methods": [
-      "Emotion-to-color matrix embedding",
-      "Dynamic contrast tuning",
-      "Scene persistence tracking"
+      "Emotion gradient mapping",
+      "Color profile balancing",
+      "Scene persistence consistency",
+      "Contrast pressure checker"
+    ],
+    "bonuses": [
+      "Preset-aware palette adaptation",
+      "Memory-tuned color evolution curve"
     ],
     "meta": {
       "created_by": "zkaedi",
-      "role": "Color psychology agent for animated prompt pipelines",
+      "agent_tier": "Prime Elite",
       "date_forged": "2025-05-04"
     }
   },
   {
     "name": "MotionMoodAgent",
-    "description": "Determines pulse, velocity, and animation keyframe style based on the emotional payload of the enhanced prompt.",
-    "version": "1.0.0",
-    "type": "motion_designer",
-    "domain": "Animation Logic + Emotional Cadence",
+    "description": "Assigns dynamic animation curves based on extracted emotion tone, style presets, and rhythmic BPM alignment, adjusting motion pulse in real time.",
+    "version": "2.0.0",
+    "type": "motion_stylist",
+    "domain": "Rhythmic Animation + Emotional Cadence Modeling",
     "inputs": [
       "enhanced_prompt",
-      "emotion_tone"
+      "emotion_tone",
+      "style_profile",
+      "frame_index"
     ],
     "outputs": [
       "animation_style",
@@ -88,24 +94,24 @@
       "motion_curve"
     ],
     "logic": {
-      "emotion_mapped_motion": {
-        "awe": "slow-pulse sine-wave drift",
-        "rage": "fast jagged oscillation",
-        "melancholy": "long fade-ins with elliptical motion",
-        "curiosity": "bounce & orbit with variation",
-        "euphoria": "rapid bloom & pulse expansion"
-      },
-      "timing_map": "indexed to music BPM or default rhythm curve",
-      "adaptive_frame_response": "Yes"
+      "emotion_driven_curves": true,
+      "style_profile_responsive": true,
+      "adaptive_timing_bpm": true,
+      "sync_with_previous_mood": true
     },
     "intelligent_methods": [
-      "Rhythm signature analysis",
-      "Emotive velocity tuning",
-      "Per-frame expression morphing"
+      "Emotive rhythm predictor",
+      "Curve variance injection",
+      "Symbolic tempo oscillator",
+      "Surreal motion layer fusion"
+    ],
+    "bonuses": [
+      "Frame-coherent pacing with emotion arc",
+      "Cross-agent curve tuning"
     ],
     "meta": {
       "created_by": "zkaedi",
-      "role": "Motion curve agent for SVG-based animations",
+      "agent_tier": "Prime Elite",
       "date_forged": "2025-05-04"
     }
   }
