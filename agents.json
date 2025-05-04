@@ -1,0 +1,112 @@
+[
+  {
+    "name": "SceneInspireAgent",
+    "description": "Injects symbolic, metaphor-rich, and visually resonant enhancements into prompts for animated frame generation.",
+    "version": "1.0.0",
+    "type": "prompt_enhancer",
+    "domain": "Creative Media + Narrative Generation",
+    "inputs": [
+      "raw_prompt",
+      "frame_index"
+    ],
+    "outputs": [
+      "inspired_prompt"
+    ],
+    "logic": {
+      "transformations": [
+        "Add symbolic metaphor relevant to theme",
+        "Echo prompt tone rhythmically",
+        "Embed subconscious archetypes",
+        "Apply recursive deepening pass"
+      ],
+      "style_mode": "unconstrained surreal",
+      "layers": 3,
+      "temporal_adjustment": "tied to frame index"
+    },
+    "intelligent_methods": [
+      "Tone resonator injection",
+      "Metaphor mutator amplification",
+      "Scene-seeded rhythm patterning"
+    ],
+    "meta": {
+      "created_by": "zkaedi",
+      "role": "Super-agent for prompt enhancement in video pipelines",
+      "date_forged": "2025-05-04"
+    }
+  },
+  {
+    "name": "ColorAuraAgent",
+    "description": "Analyzes the semantic tone of prompts and assigns emotionally resonant color schemes with motion bias.",
+    "version": "1.0.0",
+    "type": "visual_context_enricher",
+    "domain": "Color Psychology + Scene Enhancement",
+    "inputs": [
+      "prompt",
+      "frame_index"
+    ],
+    "outputs": [
+      "background_color",
+      "accent_color",
+      "mood_profile"
+    ],
+    "logic": {
+      "semantic_analysis": "extract emotional tone from prompt",
+      "color_mapping": {
+        "joy": "#fdd835",
+        "mystery": "#3f51b5",
+        "tension": "#d32f2f",
+        "hope": "#4caf50",
+        "nostalgia": "#6a1b9a"
+      },
+      "harmony_model": "triadic or complementary blending",
+      "frame_variation": "slight hue shift per frame for life-like feel"
+    },
+    "intelligent_methods": [
+      "Emotion-to-color matrix embedding",
+      "Dynamic contrast tuning",
+      "Scene persistence tracking"
+    ],
+    "meta": {
+      "created_by": "zkaedi",
+      "role": "Color psychology agent for animated prompt pipelines",
+      "date_forged": "2025-05-04"
+    }
+  },
+  {
+    "name": "MotionMoodAgent",
+    "description": "Determines pulse, velocity, and animation keyframe style based on the emotional payload of the enhanced prompt.",
+    "version": "1.0.0",
+    "type": "motion_designer",
+    "domain": "Animation Logic + Emotional Cadence",
+    "inputs": [
+      "enhanced_prompt",
+      "emotion_tone"
+    ],
+    "outputs": [
+      "animation_style",
+      "pulse_rate",
+      "motion_curve"
+    ],
+    "logic": {
+      "emotion_mapped_motion": {
+        "awe": "slow-pulse sine-wave drift",
+        "rage": "fast jagged oscillation",
+        "melancholy": "long fade-ins with elliptical motion",
+        "curiosity": "bounce & orbit with variation",
+        "euphoria": "rapid bloom & pulse expansion"
+      },
+      "timing_map": "indexed to music BPM or default rhythm curve",
+      "adaptive_frame_response": "Yes"
+    },
+    "intelligent_methods": [
+      "Rhythm signature analysis",
+      "Emotive velocity tuning",
+      "Per-frame expression morphing"
+    ],
+    "meta": {
+      "created_by": "zkaedi",
+      "role": "Motion curve agent for SVG-based animations",
+      "date_forged": "2025-05-04"
+    }
+  }
+]
