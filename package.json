@@ -4,21 +4,21 @@
   "description": "SVG-based video frame generator",
   "main": "index.ts",
   "scripts": {
-    "start": "node index.ts",
+    "start": "node index.js",
     "build": "tsc",
     "dev": "nodemon index.ts",
     "test": "jest"
   },
-  "keywords": ["svg", "video", "generator", "nodejs"],
+  "keywords": ["svg", "video", "generator", "nodejs", "typescript"],
   "author": "zkaedi",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "svg.js": "^3.1.2"
+    "@svgdotjs/svg.js": "^3.1.1"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
+    "typescript": "^5.3.2",
     "nodemon": "^2.0.22",
-    "jest": "^29.5.0"
+    "jest": "^29.7.0"
   }
 }
