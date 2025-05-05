@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "build": "tsc",
-    "deploy": "wrangler deploy"
+    "build": "esbuild src/index.ts --bundle --outfile=dist/index.js --platform=neutral --format=esm --external:svgdom",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.4",
+    "svgdom": "^0.1.16"
   },
   "devDependencies": {
     "typescript": "^5.3.2",
-    "wrangler": "^4.14.1"
+    "wrangler": "^4.14.1",
+    "esbuild": "^0.20.2"
   }
 }
